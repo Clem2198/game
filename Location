@@ -1,0 +1,16 @@
+package com.company;
+
+public class Location {
+    String locationSpot;
+    String deal;
+    int challengeComplete;
+
+    public Location(String locationSpot, String deal, int challengeComplete){
+
+        this.locationSpot = locationSpot;
+        this.deal= deal;
+        this.challengeComplete = challengeComplete;
+        System.out.println("Location: " + locationSpot + "  Objective: " + deal + "  You will recieve "+challengeComplete+
+                " points to climb higher up the food chain");
+    }
+}
