@@ -1,0 +1,11 @@
+package com.company;
+
+public class DealSuccess {
+    String dealYes;
+    int healthUp;
+
+    public DealSuccess (String dealYes, int healthUp){
+        this.dealYes = dealYes;
+        this.healthUp = healthUp;
+    }
+}
