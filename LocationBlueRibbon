@@ -1,0 +1,7 @@
+package com.company;
+
+public class LocationBlueRibbon extends Location{
+
+    public LocationBlueRibbon() {super ("Location: Blue Ribbon Sports", "Try to make a wholesale deal" +
+            " with Blue Ribbon Sports", 5);}
+}
