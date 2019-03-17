@@ -1,0 +1,15 @@
+package com.company;
+
+public class BoostUp {
+
+    String itemName;
+    int numSold;
+    int healthBoost;
+
+    public BoostUp(String itemName, int numSold, int healthBoost){
+        this.itemName=itemName;
+        this.numSold=numSold;
+        this.healthBoost=healthBoost;
+        System.out.println("Item Name: "+itemName + " Amount sold: " + numSold + " Extra Boost: " + healthBoost);
+    }
+}
