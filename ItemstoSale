@@ -1,0 +1,13 @@
+package com.company;
+
+public class ItemstoSale {
+    String shoeName;
+    int numShoes;
+
+    public ItemstoSale(String shoeName, int numShoes){
+        this.shoeName = shoeName;
+        this.numShoes = numShoes;
+        System.out.println ("You will try to sell " + shoeName +". You will try to sell " + numShoes +" pairs to the customer.");
+
+    }
+}
