@@ -1,0 +1,10 @@
+package com.company;
+
+public class DirectorCharacter extends Character {
+
+    public DirectorCharacter() {super ("Employee Director", "Phil", "Knight", 78);}
+
+
+}
+
+
