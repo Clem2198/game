@@ -1,0 +1,11 @@
+package com.company;
+
+public class DealUnsuccesful {
+    String noDeal;
+    int lifeDown;
+
+    public DealUnsuccesful(String noDeal, int lifeDown){
+        this.noDeal = noDeal;
+        this.lifeDown = lifeDown;
+    }
+}
