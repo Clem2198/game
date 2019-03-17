@@ -1,0 +1,16 @@
+package com.company;
+
+public class Character {
+    String employeeTitle;
+    String firstName;
+    String lastName;
+    int numAge;
+
+    public Character (String employeeTitle, String firstName, String lastName, int numAge){
+        this.employeeTitle = employeeTitle;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.numAge = numAge;
+        System.out.println("Title: "+ employeeTitle + "  First Name: "+firstName + "  Last Name: "+lastName+ "  Age: " +numAge );
+    }
+}
