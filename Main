@@ -1,0 +1,20 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Welcome to Top Dog: The Game where you become the CEO!");
+        System.out.println();
+        System.out.println("Below is the information regarding your character and your hiring manager");
+	new Character("Beginer", "Eugene", "Beaverton", 55);
+	new Character("Employee Director", "Phil", "Knight", 78);
+        System.out.println();
+        System.out.println("Challenge 1");
+        new Location("Location: Blue Ribbon Sports", "Try to make a wholesale deal" +
+            " with Blue Ribbon Sports", 5);
+	new ItemstoSale("Nike Blazer", 20000);
+	System.out.println("If youa r able to sell our leftover pairs of Nike SBs, you will move up even faster."
+    );
+	new BoostUp("Nike SB Dunk Low", 1000, 2);
+    }
+}
